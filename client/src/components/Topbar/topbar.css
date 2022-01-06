@@ -1,5 +1,5 @@
 .Topbar { 
-    width: 450px;
+    width: 500px;
     height: 125px;
 
     display: flex;
@@ -13,7 +13,7 @@
 }
 
 .Topbar__meow-apps-logo-container { 
-    margin: auto 0 auto 25px;
+    margin: auto 0 auto 30px;
 
     width: 110px; 
     height: 110px; 
@@ -34,7 +34,7 @@
 .Topbar__meow-apps-title-container { 
     user-select: none;
 
-    margin: auto auto auto 25px;
+    margin: auto auto auto 50px;
 
     font-size: 2.25rem;
     font-weight: bold;
