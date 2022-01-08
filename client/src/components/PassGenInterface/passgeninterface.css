@@ -101,7 +101,8 @@
 }
 
 .body-1-output-content-container__password-output { 
-    margin-left: 50px;
+    margin-left: 57.5px;
+    padding: 2.5px;
 
     width: 425px;
     height: 100%;
@@ -115,6 +116,7 @@
     color: var(--dark-theme-colour-5);
 
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .body-1-output-content-container__copy-to-clipboard { 
