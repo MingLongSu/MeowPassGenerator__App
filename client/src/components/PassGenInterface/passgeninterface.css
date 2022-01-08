@@ -1,80 +1,332 @@
 .PassGenInterface { 
     margin: auto;
 
-    width: 1000px;
+    width: 900px;
     height: 650px;
 
-    border-radius: 25px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.PassGenInterface__pass-gen-interface-title-container { 
+    width: 100%; 
+    height: 100px;
+
+    border-radius: 10px;
+
     box-shadow: 0px 0px 8px 5px var(--dark-theme-colour-4);
+    background-color: var(--dark-theme-colour-1);
+
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+
+.pass-gen-interface-title-container__title { 
+    user-select: none;
+
+    font-size: 3.5rem;
+
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.PassGenInterface__pass-gen-interface-body { 
+    margin: auto;
+
+    width: 100%; 
+    height: 500px;
 
     display: flex; 
     flex-direction: column; 
     align-items: center;
 
+    border-radius: 10px;
+
     background-color: var(--dark-theme-colour-1);
+    box-shadow: 0px 0px 8px 5px var(--dark-theme-colour-4);
 }
 
-.PassGenInterface__display-1-container { 
-    margin: auto 0;
+.pass-gen-interface-body__row-1-body { 
+    margin: auto;
 
-    width: 96.5%;
-    height: 400px;
+    width: 95%;
+    height: 125px;
 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+    border-radius: 10px;
+    border: 2px solid var(--purple);
+
+    background-color: var(--dark-theme-colour-2);
+}
+
+.row-1-body__body-1-title-container { 
+    margin: auto;
+
+    width: 200px;
+    height: 2rem;
+
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    border: 2px solid var(--purple);
+
+    background-color: var(--dark-theme-colour-3);
+}
+
+.body-1-title-container__title { 
+    user-select: none;
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.row-1-body__body-1-output-content-container { 
+    margin: auto;
+    margin-top: 0;
+
+    width: 550px; 
+    height: 3rem;
+
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.body-1-output-content-container__password-output { 
+    margin-left: 50px;
+
+    width: 425px;
+    height: 100%;
+
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--purple);
+    border-width: 2px;
+
+    background-color: var(--dark-theme-colour-3);
+    color: var(--dark-theme-colour-5);
+
+    font-size: 1.5rem;
+}
+
+.body-1-output-content-container__copy-to-clipboard { 
+    margin: auto;
+
+    width: 50px; 
+    height: 50px;
+
+    color: var(--purple);
+
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--purple);
+    background-color: var(--dark-theme-colour-3);
+
+    font-size: 1.25rem;
+
+    transition: 0.15s ease;
+}
+
+.body-1-output-content-container__copy-to-clipboard:hover { 
+    cursor: pointer;
+
+    background-color: var(--dark-theme-colour-2);
+}
+
+.body-1-output-content-container__copy-to-clipboard:active { 
+    cursor: pointer;
+
+    background-color: var(--dark-theme-colour-3);
+
+    box-shadow: 0px 0px 8px 5px var(--dark-theme-colour-4);
+}
+
+.pass-gen-interface-body__row-2-body { 
+    margin: auto;
+    margin-top: 0;
+
+    width: 95%;
+    height: 325px;
+
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
+
+.row-2-body__generate-password-prompt-container { 
+    margin-right: auto;
+
+    width: 40%;
+    height: 100%;
+
+    background-color: var(--dark-theme-colour-2);
+    
+    border: 2px solid var(--purple);
+    border-radius: 10px;
+
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.generate-password-prompt-container__prompt { 
+    width: 50%; 
+    height: 50%;
+
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+
+    filter: grayscale(0.5);
+    background-color: var(--green);
+    color: var(--dark-theme-colour-5);
+    border: 2px solid var(--dark-theme-colour-5);
+    border-radius: 50%;
+    
+    font-size: 5rem;
+
+    transition: 0.1s ease;
+}
+
+.generate-password-prompt-container__prompt:hover { 
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
+.generate-password-prompt-container__prompt:active { 
+    width: 60%;
+    height: 60%;
+
+    transform: rotate(10deg);
+
+    font-size: 6rem;
+}
+
+.row-2-body__generate-password-options-container { 
+    margin-left: auto; 
+    
+    width: 57%; 
+    height: 100%;
+
+    background-color: var(--dark-theme-colour-2);
+
+    border: 2px solid var(--purple);
     border-radius: 10px;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.generate-password-options-container__option-container { 
+    margin: auto;
+    margin-bottom: 0;
+
+    width: 100%; 
+    height: 62.5px;
+
+    display: flex; 
     flex-direction: row;
     align-items: center;
 }
 
-.PassGenInterface__display-2-container { 
-    margin: auto;
-    margin-top: 0;
+.option-container__option-title-container { 
+    width: 60%;
 
-    width: 90.25%;
-    height: 175px;
-
-    border-radius: 10px;
-    border-color: var(--purple);
-    border-style: solid;
-    box-shadow: 0px 0px 8px 5px var(--dark-theme-colour-4);
-
-    background-color: var(--dark-theme-colour-2);
+    text-align: right;
 }
 
-.display-1-container__display-1-title-container { 
-    margin: auto;
-    width: 55%;
-    height: 90%;
+.option-title-container__title { 
+    user-select: none;
 
-    background-color: var(--dark-theme-colour-2);
+    font-size: 1.75rem;
+    font-weight: bold;
 
-    border-radius: 10px;
-    border-color: var(--purple);
-    border-style: solid;
-    box-shadow: 0px 0px 8px 5px var(--dark-theme-colour-4);
+    color: var(--purple);
 }
 
-.display-1-title-container__title {  
-    margin-left: 25px; 
+.option-container__option-input-container { 
+    width: 40%;
+    height: 100%;
 
-    font-size: 5.25rem;
-
-    color: var(--dark-theme-colour-5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.display-1-title-container__options-container { 
-    margin: auto;
-    margin-left: 0;
+.option-input-container__toggle { 
+    cursor: pointer;
 
-    width: 35%; 
-    height: 90%;
+    width: 50%; 
+    height: 75%;
 
-    background-color: var(--dark-theme-colour-2);
+    border-radius: 50px;
+    border: 2px solid var(--purple);
 
-    border-radius: 10px;
-    border-color: var(--purple);
-    border-style: solid;
-    box-shadow: 0px 0px 8px 5px var(--dark-theme-colour-4);
+    background-color: var(--dark-theme-colour-1);
+
+    transition: 0.25s ease-in-out;
 }
+
+.option-input-container__toggle_active { 
+    cursor: pointer;
+
+    width: 50%; 
+    height: 75%;
+
+    border-radius: 50px;
+    border: 2px solid var(--dark-theme-colour-5);
+
+    background-color: var(--purple);
+
+    transition: 0.25s ease-in-out;
+}
+
+.toggle__slider { 
+    transform: translateX(5px);
+
+    width: 33px;
+    height: 33px;
+
+    border-radius: 50%; 
+
+    background-color: var(--purple);
+
+    transition: 0.25s ease-in-out;
+}
+
+.toggle__slider_active { 
+    transform: translateX(55px);
+
+    width: 33px;
+    height: 33px;
+
+    border-radius: 50%; 
+
+    background-color: var(--dark-theme-colour-5);
+
+    transition: 0.25s ease-in-out;
+}
+
+#length { 
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--purple);
+}
+
+
+
+
+
 
