@@ -12,7 +12,7 @@ As a result, the goal of this web-app is to provide indivuals a service that rem
 - Click-to-copy prompt to quickly copy password to clipboard
 
 ## 🔒 Images
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/ZGF9PHPc4jFiywqRHh" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/ZGF9PHPc4jFiywqRHh">via GIPHY</a></p>
+![](https://media.giphy.com/media/ZGF9PHPc4jFiywqRHh/giphy.gif)
 
 ## Future plans
 - Host the web app on a hosting site 
