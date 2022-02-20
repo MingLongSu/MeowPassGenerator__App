@@ -12,7 +12,7 @@ As a result, the goal of this web-app is to provide indivuals a service that rem
 - Click-to-copy prompt to quickly copy password to clipboard
 
 ## 🔒 Images
-**to be added
+![image](https://user-images.githubusercontent.com/88013020/154826512-25d2d6c4-f47d-410a-bdc0-24e96c6dacdc.png)
 
 ## Future plans
 - Host the web app on a hosting site 
