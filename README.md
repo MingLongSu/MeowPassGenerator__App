@@ -12,7 +12,8 @@ As a result, the goal of this web-app is to provide indivuals a service that rem
 - Click-to-copy prompt to quickly copy password to clipboard
 
 ## 🔒 Images
-![](https://media.giphy.com/media/ZGF9PHPc4jFiywqRHh/giphy.gif)
+![MeowPassGenGif](https://user-images.githubusercontent.com/88013020/155824771-9f779583-8518-4c65-a3ea-2b3a13bef17f.gif)
+
 
 ## Future plans
 - Host the web app on a hosting site 
